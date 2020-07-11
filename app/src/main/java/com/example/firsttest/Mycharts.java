@@ -10,13 +10,19 @@ public class Mycharts extends AppCompatActivity {
     CircleFillView circleFill;
     SeekBar seekBar;
 
+
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mycharts);
 
         circleFill = (CircleFillView) findViewById(R.id.circleFillView);
-
+//test
         seekBar = (SeekBar) findViewById(R.id.seekBar);
         seekBar.setProgress(circleFill.getValue());
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
