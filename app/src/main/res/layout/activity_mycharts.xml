@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Mycharts">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.example.firsttest.CircleFillView
+            android:id="@+id/circleFillView"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/ic_happy"
+            custom:fillColor="@color/yellow600"
+            custom:strokeColor="@color/yellow600"
+            custom:strokeWidth="300dp"
+            custom:value="95" />
+
+        <com.example.firsttest.CircleFillView
+            android:id="@+id/circleFillView6"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/ic_angry"
+            custom:fillColor="@color/red400"
+            custom:strokeColor="@color/red400"
+            custom:strokeWidth="100dp"
+            custom:value="65" />
+
+        <com.example.firsttest.CircleFillView
+            android:id="@+id/circleFillView7"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/ic_fear"
+            custom:fillColor="@color/purple400"
+            custom:strokeColor="@color/purple400"
+            custom:strokeWidth="100dp"
+            custom:value="40" />
+
+        <com.example.firsttest.CircleFillView
+            android:id="@+id/circleFillView8"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/ic_normal"
+            custom:fillColor="@color/gray400"
+            custom:strokeColor="@color/gray400"
+            custom:strokeWidth="100dp"
+            custom:value="85" />
+
+        <com.example.firsttest.CircleFillView
+            android:id="@+id/circleFillView9"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/ic_sad"
+            custom:fillColor="@color/blue600"
+            custom:strokeColor="@color/blue400"
+            custom:strokeWidth="100dp"
+            custom:value="60" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
